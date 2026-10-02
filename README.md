@@ -2,7 +2,8 @@
 
 Code for the Data Descriptor *"Beyond monthly commuting flows: mobility matrices by age for weekdays, weekends and holidays in South Korea"* (Son, Wi, Nah & Jung). It builds, for each month from January 2018 to December 2023 and each day type (weekday, weekend, holiday), origin–destination matrices for 250 districts × 15 age groups divided into commute, non-commute and non-move.
 
-- Data: https://doi.org/10.5281/zenodo.23092377
+- Data: https://doi.org/10.5281/zenodo.23092376 (Zenodo; all versions)
+- Code archive: https://doi.org/10.5281/zenodo.23092970 (Zenodo; all versions)
 
 ## Method in brief
 
@@ -55,5 +56,5 @@ The code in this repository is released under the [MIT License](LICENSE). The da
 
 ## Citation
 
-If you use this code or the data, please cite the Data Descriptor (Beyond monthly commuting flows: mobility matrices by age for weekdays, weekends and holidays in South Korea) and the data record (DOI: 10.5281/zenodo.23092377).
+If you use this code or the data, please cite the Data Descriptor (Beyond monthly commuting flows: mobility matrices by age for weekdays, weekends and holidays in South Korea) and the data record (DOI: 10.5281/zenodo.23092376).
 
