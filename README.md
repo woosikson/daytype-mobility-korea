@@ -28,7 +28,7 @@ See the Methods of the paper for equations and details.
 ## Inputs
 
 1. Download `inputs_public.zip` from the Zenodo data record and unzip it into `input/`.
-2. The following inputs cannot be redistributed; obtain them from the providers and place them in `input/` (file names as listed; formats are described in the data record README):
+2. The following inputs are not included in this repository or the data record; obtain them from the providers and place them in `input/` (file names as listed; formats are described in the data record README):
    - `defacto_daytype_2018-2023.csv` — monthly day-type averages of the daily mobile-phone de facto population (KT Corporation);
    - `od_corrected_202209.csv` — mobile-phone day/night residence OD, September 2022 (KT Corporation; validation only);
    - `nc_od_agegroup.csv` — KTDB OD by purpose (shopping, leisure, other), 2019 (https://www.ktdb.go.kr);
@@ -37,7 +37,7 @@ See the Methods of the paper for equations and details.
    - `sgg_polygons.csv` — district boundary polygons (SGIS; maps only).
 3. Place the 2024 Time Use Survey report `제1-1권 생활시간량편(표1-5).pdf` (Ministry of Data and Statistics) in `contents/`. The code extracts Tables 1-2 and 2-2 with `pdftotext` (poppler), which must be installed.
 
-Without the restricted inputs the code cannot be run end to end; the released matrices in the data record are its output.
+Without these inputs the code cannot be run end to end; the released matrices in the data record are its output.
 
 ## Run
 
@@ -52,7 +52,7 @@ Software: Julia 1.12.4 (IPF via `ProportionalFitting.jl`; versions fixed in `Man
 
 ## License
 
-The code in this repository is released under the [MIT License](LICENSE). The data records (the 174 OD matrices and accompanying files on Zenodo) are released separately under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. Restricted inputs (KT, KTDB and Korea Tourism Data Lab data) are not covered by either license and remain subject to the terms of their providers.
+The code in this repository is released under the [MIT License](LICENSE). The data records (the 174 OD matrices and accompanying files on Zenodo) are released separately under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. Inputs obtained from KT, KTDB and the Korea Tourism Data Lab are not covered by either license and remain subject to the terms of their providers.
 
 ## Citation
 
