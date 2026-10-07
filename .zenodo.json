@@ -1,0 +1,41 @@
+{
+  "title": "Code for: Beyond monthly commuting flows: mobility matrices by age for weekdays, weekends and holidays in South Korea",
+  "upload_type": "software",
+  "description": "Julia and R code that builds day-type-resolved (weekday, weekend, holiday) commute, non-commute and non-move origin–destination matrices for 250 South Korean districts and 15 age groups, January 2018 – December 2023, by iterative proportional fitting of a public-data initial guess to the registered population and hourly mobile-phone de facto population, with Bayesian calibration of weekend and holiday behaviour.",
+  "creators": [
+    {
+      "name": "Son, Woo-Sik",
+      "affiliation": "Department of Fundamental Research on Public Agenda, National Institute for Mathematical Sciences, Daejeon, Republic of Korea"
+    },
+    {
+      "name": "Wi, Yunju",
+      "affiliation": "Department of Fundamental Research on Public Agenda, National Institute for Mathematical Sciences, Daejeon, Republic of Korea"
+    },
+    {
+      "name": "Nah, Kyeongah",
+      "affiliation": "Busan Center for Medical Mathematics, National Institute for Mathematical Sciences, Busan, Republic of Korea"
+    },
+    {
+      "name": "Jung, Sung-mok",
+      "affiliation": "Saw Swee Hock School of Public Health, National University of Singapore, Singapore"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "human mobility",
+    "origin-destination matrix",
+    "de facto population",
+    "iterative proportional fitting",
+    "radiation model",
+    "Bayesian calibration",
+    "South Korea"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23092376",
+      "relation": "compiles",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ]
+}
